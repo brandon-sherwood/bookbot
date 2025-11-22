@@ -5,6 +5,10 @@ def get_book_text(path_to_file):
     return file_contents
 
 
-def main(get_book_text):
+def main():
+    frankenstein = get_book_text("books/frankenstein.txt")
+    print(frankenstein)
 
-    print()
+
+if __name__ == "__main__":
+    main()
